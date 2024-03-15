@@ -1,4 +1,4 @@
-@import url(./assets/css/font.css);
+@import url(./font.css);
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -137,7 +137,7 @@ h4 {
 :root::before {
   content: '';
   background-image: linear-gradient(rgba(232, 235, 244, 0.7),
-      rgba(232, 235, 244, 0.7)), url('./assets/img/background.jpeg');
+      rgba(232, 235, 244, 0.7)), url('@/assets/img/background.jpeg');
   background-size: cover;
   position: absolute;
   top: 4rem;
