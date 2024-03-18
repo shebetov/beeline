@@ -16,32 +16,32 @@
 
       <div class="flex flex-row justify-between items-end px-9">
         <div class="flex flex-col items-left mb-4 mx-3">
-          <p class="font-label text-gray">
+          <div class="font-label text-gray">
             Manage
-          </p>
+          </div>
           <h3 class="font-title-bold">
             Your Beeline Account
           </h3>
         </div>
 
         <div class="flex flex-row items-end">
-          <p class="tab tab-active">
+          <div class="tab tab-active">
             Practicies & Offices
-          </p>
-          <p class="tab">
+          </div>
+          <div class="tab">
             Presribers
-          </p>
-          <p class="tab">
+          </div>
+          <div class="tab">
             Users
-          </p>
+          </div>
         </div>
       </div>
 
       <hr class="pt-px mt-px bg-gray-light border-0">
 
-      <p class="font-title m-8 mb-1">
+      <div class="font-title m-8 mb-1">
         Practicies & Offices List
-      </p>
+      </div>
 
       <div class="grow table-scroll relative ml-8 mb-8 mr-4 mt-1">
         <PracticiesTable :data="practiciesData" />

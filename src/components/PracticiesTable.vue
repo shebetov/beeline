@@ -15,37 +15,31 @@
                 <tr class="h-4 border-t border-gray-light"></tr>
                 <tr>
                     <th scope="row" class="whitespace-nowrap font-body-bold">
-                        <div>
-                            <p class="font-body-bold">
-                                {{ practice.name }}
-                            </p>
-                            <p class="row-label font-label text-default">
-                                Practice
-                            </p>
+                        <div class="font-body-bold">
+                            {{ practice.name }}
+                        </div>
+                        <div class="row-label font-label text-default">
+                            Practice
                         </div>
                     </th>
                     <td class="flex items-start">
                         {{ practice.npi }}
                     </td>
                 </tr>
-
                 <template v-for="office in practice.offices">
                     <tr>
                         <th scope="row" class="child-row whitespace-nowrap font-body-bold">
-                            <div>
-                                <p class="font-body-bold">
-                                    {{ office.name }}
-                                </p>
-                                <p class="row-label font-label text-default">
-                                    Office
-                                </p>
+                            <div class="font-body-bold">
+                                {{ office.name }}
+                            </div>
+                            <div class="row-label font-label text-default">
+                                Office
                             </div>
                         </th>
                         <td class="flex items-start">
                             {{ office.npi }}
                         </td>
                     </tr>
-
                 </template>
             </template>
             <tr class="h-4 border-t border-gray-light"></tr>
